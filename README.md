@@ -1,3 +1,24 @@
+```text
+                        -`                     
+                       .o+`                            radon@archlinux @github
+                      `ooo/                            -----------------------
+                     `+oooo:                           OS: Arch Linux 
+                    `+oooooo:                          Role: Backend , Blockchain , Web3 Engineer
+                    -+oooooo+:                         Uptime: 21 Years
+                  `/:-:++oooo+:                        Focus: Low Level Programming, Distributed Systems
+                 `/++++/+++++++:                       Languages: Rust, Solidity, TypeScript, Python, C++, Java
+                `/++++++++++++++:              
+               `/+++ooooooooooooo/`                    - Contact ---------------------
+              ./ooosssso++osssssso+`                   GitHub: ...... github.com/radon19
+             .oossssso-````/ossssss+`                  LinkedIn: .... /in/kkedarsinghnaikane
+            -osssssso.      :ssssssso.                 LeetCode: .... leetcode.com/u/kedar2005
+           :osssssss/        osssso+++.        
+          /ossssssss/        +ssssooo/-                - Stack & Systems -------------
+        `/ossssso+/:-        -:/+osssso+-              Backend: .... Node.js, Express, PostgreSQL
+       `+sso+:-`                 `.-/+oso:             Web3/EVM: ... Hardhat, viem, ethers.js, wagmi
+      `++:.                           `-/+/            Systems: .... Linux, Docker, Kubernetes, Git
+      .`                                 `/    
+```
 <div align="center">
 
 # Kedar Singh Naikane
