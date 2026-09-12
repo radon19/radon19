@@ -123,7 +123,7 @@ Build the smallest correct system.
 | Platform | Profile |
 | --- | --- |
 | GitHub | [@radon19](https://github.com/radon19) |
-| LinkedIn | [Kedar Singh Naikane](https://www.linkedin.com/in/kkedar-singh-naikane/) |
+| LinkedIn | [Kedar Singh Naikane](https://www.linkedin.com/in/kedar-sn/) |
 | LeetCode | [kedar2005](https://leetcode.com/u/kedar2005/) |
 | Codeforces | [Kedar2005](https://codeforces.com/profile/Kedar2005) |
 
