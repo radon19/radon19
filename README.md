@@ -129,6 +129,20 @@ Build the smallest correct system.
 
 ## Featured project
 
+### [Indenture](https://github.com/radon19/Indenture)
+
+**A cross-chain credit protocol that makes on-chain repayment history portable.**
+
+A perfect repayment history on Ethereum counts for nothing the moment you touch a new chain — lenders can't tell a good borrower from a fresh wallet, so everyone gets pushed into the same over-collateralized terms. Indenture fixes that:
+
+- Converts verified repayment history from **Aave V3, Spark, and Compound V3** into a portable **400–900 on-chain credit score**.
+- Proves repayments with **Merkle and continuity attestations**, verified on-chain via precompile — no self-reported claims.
+- Hardens scoring against Sybil and flash-loan attacks by capping stake credit at 35% of lifetime volume.
+- Runs a **Bun-based proving** worker that pre-checks receipts, summarizes logs, and builds attestations, rejecting invalid input in 68ms before any external I/O.
+- Verified by **124 automated tests** (112 contract + 12 worker) at a 100% pass rate.
+- Built with Solidity, Next.js, TypeScript, Bun, PostgreSQL, Prisma, and Creditcoin for score and lending infrastructure.
+
+
 ### [StorEx-WaaS](https://github.com/radon19/StorEx-Waas)
 
 **A wallet-as-a-service platform for crypto trading, built end to end.**
