@@ -23,7 +23,7 @@
 
 # Kedar Singh Naikane
 
-### Backend & Blockchain Engineer | Systems-minded Developer
+### Fullstack & Blockchain Engineer | Systems-minded Developer
 
 I build blockchain infrastructure, backend systems, and low-level software from first principles.
 
@@ -61,9 +61,9 @@ My strongest interests are:
 <tr>
 <td valign="top" width="50%">
 
-### Backend & application
+### Fullstack & application
 
-`TypeScript` `Node.js` `MongoDB` `Express` `Next.js` `PostgreSQL` `Prisma` `REST APIs` `Zod`
+`Rust` `TypeScript` `Node.js` `MongoDB` `Express` `Next.js` `PostgreSQL` `Prisma` `REST APIs` 
 
 `Python` `NumPy` `Pandas` `Seaborn` `Matplotlib`
 
@@ -83,7 +83,7 @@ Smart contracts, wallet infrastructure, RPC interactions, transaction signing, a
 
 ### Systems & infrastructure
 
-`Linux` `Arch Linux` `Docker` `Kubernetes` `Git` `Networking` `Concurrency`
+`Linux` `Docker` `Kubernetes` `Git` `Networking` `Concurrency`
 
 Interested in operating systems, compilers, runtimes, memory, and low-level programming.
 
@@ -92,9 +92,9 @@ Interested in operating systems, compilers, runtimes, memory, and low-level prog
 
 ### Web interfaces
 
-`Tailwind CSS` `HTML` `CSS`
+`Next js` `React` `Tailwind CSS` `HTML` `CSS`
 
-I use web interfaces to make systems usable, while my deepest focus remains blockchain, backend, and infrastructure.
+I use web interfaces to make systems usable and make my applications work
 
 </td>
 </tr>
