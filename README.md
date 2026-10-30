@@ -3,7 +3,7 @@
                        .o+`                            radon@archlinux @github
                       `ooo/                            -----------------------
                      `+oooo:                           OS: Arch Linux 
-                    `+oooooo:                          Role: Backend , Blockchain , Web3 Engineer
+                    `+oooooo:                          Role: Fullstack , Blockchain , Web3 Engineer
                     -+oooooo+:                         Uptime: 21 Years
                   `/:-:++oooo+:                        Focus: Low Level Programming, Distributed Systems
                  `/++++/+++++++:                       Languages: Rust, Solidity, TypeScript, Python, C++, Java
@@ -14,10 +14,10 @@
             -osssssso.      :ssssssso.                 LeetCode: .... leetcode.com/u/kedar2005
            :osssssss/        osssso+++.        
           /ossssssss/        +ssssooo/-                - Stack & Systems -------------
-        `/ossssso+/:-        -:/+osssso+-              Backend: .... Node.js, Express, PostgreSQL
-       `+sso+:-`                 `.-/+oso:             Web3/EVM: ... Hardhat, viem, ethers.js, wagmi
-      `++:.                           `-/+/            Systems: .... Linux, Docker, Kubernetes, Git
-      .`                                 `/    
+        `/ossssso+/:-        -:/+osssso+-              Frontend: .... Next js , React js, Tailwind Css
+       `+sso+:-`                 `.-/+oso:             Backend: .... Rust, Node.js, Express, PostgreSQL
+      `++:.                           `-/+/            Web3/EVM: ... Solidity, Foundry, viem, ethers.js, wagmi
+      .`                                 `/            Systems: .... Linux, Docker, Kubernetes, Git
 ```
 <div align="center">
 
