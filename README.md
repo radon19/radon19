@@ -23,17 +23,17 @@
 
 # Kedar Singh Naikane
 
-**Full-stack development · Rust systems · Blockchain infrastructure**
+**Full-stack developer · Rust · Blockchain · Linux**
 
-I build applications from the interface to the database, and follow the interesting problems further down the stack.
+I build full-stack applications and blockchain infrastructure with Rust, TypeScript, React and Next.js—from the interface to the systems underneath it.
 
 [LinkedIn](https://www.linkedin.com/in/kedar-sn/) · [Email](mailto:ks.naikane@gmail.com) · [LeetCode](https://leetcode.com/u/kedar2005/) · [Codeforces](https://codeforces.com/profile/Kedar2005)
 
 ```text
-radon@archlinux ~ $ whoami
+radon@linux ~ $ whoami
 Full-stack developer. Computer Science student. Linux enthusiast.
 
-radon@archlinux ~ $ cat approach.txt
+radon@linux ~ $ cat approach.txt
 Understand the system. Question the assumptions. Make it better.
 ```
 
@@ -50,7 +50,7 @@ A transaction-processing pipeline that turns Solana DEX activity into structured
 - **Explicit failure handling:** bounded channels propagate backpressure; complete finalized blocks and their checkpoints commit atomically. Batched writes, versioned dead-letter recovery and graceful shutdown handle accepted work.
 - **Reproducible checks:** recorded verification includes **85 passing unit tests** and a reference replay storing **5,969 transactions and 2,471 swap events**. Replaying again preserved row counts and transaction/slot checksums.
 
-Those figures describe recorded tests and capture results, not sustained mainnet throughput or exhaustive protocol coverage. Checkpoints are stored; automatic startup resume and reconnect are not implemented.
+The replay figures describe one reference capture, not sustained mainnet throughput. See the linked verification and supported scope for details.
 
 [Code](https://github.com/radon19/solana-indexer) · [Demo](https://github.com/radon19/solana-indexer/blob/main/demo/demo_indexer.mp4) · [Verification](https://github.com/radon19/solana-indexer/blob/main/docs/validation.txt) · [Scope & limitations](https://github.com/radon19/solana-indexer/blob/main/docs/limitations.md)
 
@@ -92,12 +92,8 @@ Delivered the company's website from architecture to deployment: **18 product an
 | Full-stack | TypeScript, React, Next.js, Tailwind CSS, Node.js, Express, REST APIs, Zod |
 | Systems & data | Rust, Tokio, gRPC, PostgreSQL, SQLx, Prisma, Supabase, MongoDB |
 | Blockchain | Solana, Ethereum/EVM, Solidity, Carbon, Foundry, Hardhat, viem, ethers.js, wagmi |
-| Environment | Arch Linux, Git, Docker |
+| Environment | Linux, Git, Docker |
 | Other languages | Python, SQL, C++, Java |
-
-## Why Linux matters to me
-
-My first Arch Linux installation became nearly two months of troubleshooting an issue I couldn't find a documented fix for. I stepped away, returned to it, identified the cause and fixed it. That experience made me more curious about the machine underneath the software—and more willing to stay with a difficult problem until I understand it.
 
 ## Currently exploring
 
