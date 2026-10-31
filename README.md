@@ -23,143 +23,86 @@
 
 # Kedar Singh Naikane
 
-### Fullstack & Blockchain Engineer | Systems-minded Developer
+**Full-stack development · Rust systems · Blockchain infrastructure**
 
-I build blockchain infrastructure, backend systems, and low-level software from first principles.
+I build applications from the interface to the database, and follow the interesting problems further down the stack.
 
-[![GitHub](https://img.shields.io/badge/GitHub-radon19-181717?style=flat&logo=github)](https://github.com/radon19)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/kkedar-singh-naikane/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-kedar2005-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/kedar2005/)
-[![Codeforces](https://img.shields.io/badge/Codeforces-Kedar2005-1F8ACB?style=flat&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Kedar2005)
-
-![Profile views](https://komarev.com/ghpvc/?username=radon19&style=flat-square&color=2563EB&label=Profile+views)
-
-</div>
-
----
-
-## About me
-
-- I enjoy learning how technology works beneath the abstractions, from operating systems and networking to runtimes and distributed systems.
-- I prefer building rather than only assembling: backend services, protocol integrations, data layers, and blockchain infrastructure.
-- I work primarily with Linux and use Arch as my daily environment.
-- I care about fundamentals, clear interfaces, correctness, security, and understanding trade-offs.
-- I am constantly exploring new tools and ideas instead of following a single traditional stack.
-
-## What I build
-
-My strongest interests are:
-
-- **Blockchain and Web3:** smart contracts, wallet infrastructure, EVM internals, Solana, transaction flows, and on-chain applications.
-- **Backend systems:** APIs, authentication, databases, validation, service design, and production-minded architecture.
-- **Low-level and systems programming:** Linux, memory, processes, networking, concurrency, runtimes, and how abstractions work underneath.
-- **Developer infrastructure:** Docker, Kubernetes, observability-minded services, and reliable deployment workflows.
-
-## Technical toolkit
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-### Fullstack & application
-
-`Rust` `TypeScript` `Node.js` `MongoDB` `Express` `Next.js` `PostgreSQL` `Prisma` `REST APIs` 
-
-`Python` `NumPy` `Pandas` `Seaborn` `Matplotlib`
-
-</td>
-<td valign="top" width="50%">
-
-### Blockchain & Web3
-
-`Solidity` `Hardhat` `EVM` `Ethereum` `Solana` `viem` `ethers.js` `web3.js` `wagmi`
-
-Smart contracts, wallet infrastructure, RPC interactions, transaction signing, and DeFi integrations.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### Systems & infrastructure
-
-`Linux` `Docker` `Kubernetes` `Git` `Networking` `Concurrency`
-
-Interested in operating systems, compilers, runtimes, memory, and low-level programming.
-
-</td>
-<td valign="top">
-
-### Web interfaces
-
-`Next js` `React` `Tailwind CSS` `HTML` `CSS`
-
-I use web interfaces to make systems usable and make my applications work
-
-</td>
-</tr>
-</table>
-
-## Engineering principles
+[LinkedIn](https://www.linkedin.com/in/kedar-sn/) · [Email](mailto:ks.naikane@gmail.com) · [LeetCode](https://leetcode.com/u/kedar2005/) · [Codeforces](https://codeforces.com/profile/Kedar2005)
 
 ```text
-Understand the abstraction.
-Respect the boundary.
-Validate the input.
-Make failure explicit.
-Measure before optimizing.
-Build the smallest correct system.
+radon@archlinux ~ $ whoami
+Full-stack developer. Computer Science student. Linux enthusiast.
+
+radon@archlinux ~ $ cat approach.txt
+Understand the system. Question the assumptions. Make it better.
 ```
 
-## Currently learning
+## Selected work
 
-- Rust for safe, performant systems and deeper blockchain development.
-- Advanced smart contract security, protocol design, and production-grade blockchain infrastructure.
-- Low-level programming, distributed systems, and production infrastructure.
-- New tools and development patterns across the Ethereum and Solana ecosystems.
+### [Solana DEX Indexer](https://github.com/radon19/solana-indexer)
 
-## Find me online
+**Rust · Tokio · Yellowstone gRPC · Carbon · PostgreSQL · SQLx**
 
-| Platform | Profile |
-| --- | --- |
-| GitHub | [@radon19](https://github.com/radon19) |
-| LinkedIn | [Kedar Singh Naikane](https://www.linkedin.com/in/kedar-sn/) |
-| LeetCode | [kedar2005](https://leetcode.com/u/kedar2005/) |
-| Codeforces | [Kedar2005](https://codeforces.com/profile/Kedar2005) |
+A transaction-processing pipeline that turns Solana DEX activity into structured events, with live ingestion and offline capture replay.
 
-## Featured project
+- **10 protocol parsers across five ecosystems:** Jupiter, Pump.fun, Raydium, Orca and Meteora. Coverage is instruction-specific.
+- **Correct event identity:** preserves parent instruction identity through nested cross-program invocations, database keys and route hops to prevent storage collisions.
+- **Explicit failure handling:** bounded channels propagate backpressure; complete finalized blocks and their checkpoints commit atomically. Batched writes, versioned dead-letter recovery and graceful shutdown handle accepted work.
+- **Reproducible checks:** recorded verification includes **85 passing unit tests** and a reference replay storing **5,969 transactions and 2,471 swap events**. Replaying again preserved row counts and transaction/slot checksums.
+
+Those figures describe recorded tests and capture results, not sustained mainnet throughput or exhaustive protocol coverage. Checkpoints are stored; automatic startup resume and reconnect are not implemented.
+
+[Code](https://github.com/radon19/solana-indexer) · [Demo](https://github.com/radon19/solana-indexer/blob/main/demo/demo_indexer.mp4) · [Verification](https://github.com/radon19/solana-indexer/blob/main/docs/validation.txt) · [Scope & limitations](https://github.com/radon19/solana-indexer/blob/main/docs/limitations.md)
 
 ### [Indenture](https://github.com/radon19/Indenture)
 
-**A cross-chain credit protocol that makes on-chain repayment history portable.**
+**Solidity · Foundry · TypeScript · Bun · Next.js · PostgreSQL · Prisma**
 
-A perfect repayment history on Ethereum counts for nothing the moment you touch a new chain — lenders can't tell a good borrower from a fresh wallet, so everyone gets pushed into the same over-collateralized terms. Indenture fixes that:
+A cross-chain credit protocol that turns Ethereum repayment history into a portable on-chain score.
 
-- Converts verified repayment history from **Aave V3, Spark, and Compound V3** into a portable **400–900 on-chain credit score**.
-- Proves repayments with **Merkle and continuity attestations**, verified on-chain via precompile — no self-reported claims.
-- Hardens scoring against Sybil and flash-loan attacks by capping stake credit at 35% of lifetime volume.
-- Runs a **Bun-based proving** worker that pre-checks receipts, summarizes logs, and builds attestations, rejecting invalid input in 68ms before any external I/O.
-- Verified by **124 automated tests** (112 contract + 12 worker) at a 100% pass rate.
-- Built with Solidity, Next.js, TypeScript, Bun, PostgreSQL, Prisma, and Creditcoin for score and lending infrastructure.
+- Integrates Aave V3, Spark and Compound V3 repayment evidence with Merkle and continuity attestations.
+- Connects a proving worker, evidence deduplication, tier-based lending and verifiable credit receipts.
+- Recorded checks include **112 contract tests and 12 worker tests passing**.
 
+[Code](https://github.com/radon19/Indenture) · [Demo](https://indenture.vercel.app/)
 
-### [StorEx-WaaS](https://github.com/radon19/StorEx-Waas)
+### [StorEx — Wallet-as-a-Service](https://github.com/radon19/StorEx-Waas)
 
-**A wallet-as-a-service platform for crypto trading, built end to end.**
+**TypeScript · React · Next.js · Solana · PostgreSQL · Prisma · Tailwind CSS**
 
-StorEx provisions Solana wallets through Google sign-in and provides a production-oriented trading pipeline:
+A Solana wallet platform with Google sign-in, token balances, transfers and Jupiter swaps.
 
-- Generates real Solana keypairs on account creation.
-- Encrypts private keys at rest with **AES-256-GCM**; keys never reach the browser.
-- Reads live balances from Solana and prices assets through Jupiter.
-- Quotes, signs, and executes swaps through **Jupiter Aggregator v2**.
-- Uses **TypeScript, Next.js, PostgreSQL, Prisma, Zod, and Tailwind CSS** end to end.
-- Keeps authentication, validation, wallet operations, and transaction signing on the server side.
+- Generates wallets server-side, encrypts keys at rest with **AES-256-GCM**, and signs transactions on the server.
+- Uses session checks and Zod validation for wallet operations, with configurable swap slippage and USD pricing.
 
-This project reflects how I approach engineering: understand the underlying protocol, design around security boundaries, and build the complete path from user action to infrastructure.
+[Code](https://github.com/radon19/StorEx-Waas) · [Demo](https://storex-waas.vercel.app/)
 
-<div align="center">
+### [AdiJey Engineering Solutions](https://github.com/radon19/adijey)
 
-### Always learning. Always building. Always going deeper.
+**Freelance client work · Next.js · TypeScript · Tailwind CSS · Supabase · Vercel**
 
-</div>
+Delivered the company's website from architecture to deployment: **18 product and service categories**, a PostgreSQL-backed enquiry workflow, Row Level Security and an authenticated admin dashboard.
+
+[Website](https://adijey.com) · [Public site code](https://github.com/radon19/adijey) · [Admin code](https://github.com/radon19/adijey-admin)
+
+## Toolkit
+
+| Area | Technologies |
+| --- | --- |
+| Full-stack | TypeScript, React, Next.js, Tailwind CSS, Node.js, Express, REST APIs, Zod |
+| Systems & data | Rust, Tokio, gRPC, PostgreSQL, SQLx, Prisma, Supabase, MongoDB |
+| Blockchain | Solana, Ethereum/EVM, Solidity, Carbon, Foundry, Hardhat, viem, ethers.js, wagmi |
+| Environment | Arch Linux, Git, Docker |
+| Other languages | Python, SQL, C++, Java |
+
+## Why Linux matters to me
+
+My first Arch Linux installation became nearly two months of troubleshooting an issue I couldn't find a documented fix for. I stepped away, returned to it, identified the cause and fixed it. That experience made me more curious about the machine underneath the software—and more willing to stay with a difficult problem until I understand it.
+
+## Currently exploring
+
+- Linux internals, networking and computer architecture.
+- Rust concurrency, data consistency and failure recovery.
+- Execution-aware blockchain indexing and smart-contract security.
+
+**B.Tech. in Computer Science and Engineering · Ramdeobaba University, Nagpur · 2024–2028**
